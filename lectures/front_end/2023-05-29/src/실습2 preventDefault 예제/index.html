@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="http://www.google.com" id="link">Google</a>
+    <script>
+        document.querySelector('#link').addEventListener('click', function(e){
+            e.preventDefault();
+        });
+        // a 태그 클릭 시 preventDefault를 사용했기 때문에 링크값이 있어도 이동하지 않는다.
+    </script>
+    
+</body>
+</html>
